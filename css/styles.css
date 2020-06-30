@@ -1,0 +1,67 @@
+@font-face {
+  src: url(fonts/CerebriSans-ExtraBold.ttf);
+  font-family: cerebri;
+}
+
+@font-face {
+  src: url(fonts/CerebriSans-Medium.ttf);
+  font-family: cerebrimed;
+}
+
+.navbar-dark{
+  background: #40454B;
+}
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 1;
+  background: #303136;
+}
+
+.row-content{
+  margin: 0px auto;
+  padding: 25px 0px;
+  min-height: 300px;
+}
+
+#email {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  box-shadow: none;
+}
+
+.notifyButton {
+  background: #3A44A1;
+  color: #ffffff;
+}
+
+#clockDiv {
+  font-family: cerebrimed;
+  color: #7289D9;
+  font-size: 72px;
+  display: inline-block;
+}
+
+#clockDiv > div {
+  padding: 10px;
+  display: inline-block;
+}
+
+#clockDiv > span {
+  padding: 30px;
+  display: inline-block;
+}
+
+.clockText{
+  font-family: cerebri;
+  font-size: 16px; 
+  color: #FFFFFF;
+  margin-left: 18px;
+}
+
+.clockColon {
+  color: #C4C4C4;
+  margin-bottom: -50px;
+}
